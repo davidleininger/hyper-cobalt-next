@@ -1,6 +1,6 @@
 {
   "name": "hyper-cobalt-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hyper theme based on the Cobalt Next VS Code Theme",
   "main": "index.js",
   "repository": {
