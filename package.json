@@ -1,0 +1,22 @@
+{
+  "name": "hyper-cobalt-next",
+  "version": "1.0.0",
+  "description": "Hyper theme based on the Cobalt Next VS Code Theme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidleininger/hyper-cobalt-next.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "colors",
+    "hyper",
+    "hyper-theme",
+    "cobalt",
+    "next"
+  ],
+  "author": "davidleininger",
+  "license": "MIT"
+}
