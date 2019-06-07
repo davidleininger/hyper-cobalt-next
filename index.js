@@ -46,7 +46,7 @@ module.exports.decorateConfig = config => {
   const tabNavBg = black
   const tabText = lightBlack
   const tabTextActive = white
-  const dividerBg = 'rgba(27,43,66,.4)'
+  const dividerBg = black
 
   return Object.assign({}, config, {
     foregroundColor,
@@ -101,7 +101,7 @@ module.exports.decorateConfig = config => {
       .tab_icon:hover {
         background: ${tabNavBg};
       }
-      .splitpane_divider {
+      #hyper .splitpane_divider {
         background-color: ${dividerBg} !important;
       }
       ${config.css || ''}
