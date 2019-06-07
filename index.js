@@ -62,7 +62,6 @@ module.exports.decorateConfig = config => {
       }
     `,
     css: `
-      ${config.css || ''}
       #hyper {
         border: 1px solid ${borderColor};
       }
@@ -105,6 +104,7 @@ module.exports.decorateConfig = config => {
       .splitpane_divider {
         background-color: ${dividerBg} !important;
       }
+      ${config.css || ''}
     `
   })
 }
